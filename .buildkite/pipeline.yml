@@ -1,0 +1,6 @@
+steps:
+  - name: ":hammer: Example Script"
+    command: "script.sh"
+    artifact_paths: "artifacts/*"
+  - name: 'step 2'
+    command: 'echo hello world force'
